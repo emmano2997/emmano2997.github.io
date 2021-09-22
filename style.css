@@ -1,35 +1,3 @@
-/*
-Theme Name: Start sua carreira
-Theme URI: http://www.startsuacarreira.com.br
-Author: Kenzie Academy BR
-Author URI: https://kenzie.com.br;
-Description: Descrição do thema.
-Version: 1.0
-
---------------------------------------------
-ESTRUTURAÇÃO BASE
---------------------------------------------
-**** DECLARAÇÃO DE VARIÁVEIS
-**** ESTILOS GERAIS
-**** BODY
-**** HEADER
-**** FOOTER
-**** PÁGINA INICIAL
-**** EXTRAS
-**** @MEDIA
-
-
-fundo darkmode: #19232f
-fundo info sobre darkmode: #2d3846
-fundo footer darkmode: #131a23
-textos darkmode: #e4e4e4
-borda darkmode: #9fb1c7
-
-*/
-
-
-/* VARIAVEIS */
-
 
 /*GERAL*/
 html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul,li, a,main{
@@ -41,17 +9,6 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul,li,
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
-/*
-.container{}
-
-.row{}
-
-.column{}
-
-.column--esquerda{}
-
-.column--direita{}
-*/
 .hidden{
     display: none;
 }
@@ -81,8 +38,6 @@ input:checked ~ main .informacoesContatoPortfolio__trocarModo label span{
 input:checked ~ footer{
     background-color: #131a23;
 }
-
-
 
 /* PÁGINA INICIAL */
 main{
@@ -179,40 +134,10 @@ section ul li strong{
     font-weight: 500;
     font-size: 14px;
 }
-
-/*.informacoesExperienciaPortfolio{}
-
-.informacoesExperienciaPortfolio__perfil{}
-.informacoesExperienciaPortfolio__perfil h2{}
-.informacoesExperienciaPortfolio__perfil p{}
-
-.informacoesExperienciaPortfolio__especialidades{}
-
-.informacoesExperienciaPortfolio__especialidades h2{}
-.informacoesExperienciaPortfolio__especialidades ul{}
-.informacoesExperienciaPortfolio__especialidades ul li{}
-.informacoesExperienciaPortfolio__especialidades ul li p{}
-
-.informacoesExperienciaPortfolio__formacao{}
-
-.informacoesExperienciaPortfolio__formacao h2{}
-.informacoesExperienciaPortfolio__formacao ul{}
-.informacoesExperienciaPortfolio__formacao ul li{}
-.informacoesExperienciaPortfolio__formacao ul li p{}
-*/
 .informacoesExperienciaPortfolio__experiencia{
     margin-bottom: 0;
     border: none;
 }
-/*
-.informacoesExperienciaPortfolio__experiencia h2{}
-.informacoesExperienciaPortfolio__experiencia ul{}
-.informacoesExperienciaPortfolio__experiencia ul li{}
-.informacoesExperienciaPortfolio__experiencia ul li h3{}
-.informacoesExperienciaPortfolio__experiencia ul li strong{}
-.informacoesExperienciaPortfolio__experiencia ul li p{}
-*/
-
 /* FOOTER */
 footer{
     background-color: #3d6394;
@@ -230,8 +155,6 @@ footer{
     width: 100%;
     max-width: 20px;
 }
-
-
 /* @MEDIA QUERY */
 @media screen and (min-width: 768px) {
     main .row {

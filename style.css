@@ -63,7 +63,7 @@ main .column--direita{
 .informacoesContatoPortfolio__imagem img{
     width: 100%;
     max-width: 160px;
-    border-radius: 100%;
+    border-radius: 30%;
 }
 
 .informacoesContatoPortfolio__descricao{

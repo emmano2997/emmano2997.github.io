@@ -61,8 +61,8 @@ main .column--direita{
     text-align: center;
 }
 .informacoesContatoPortfolio__imagem img{
-    width: 100%;
-    max-width: 160px;
+    width: 12   0%;
+    max-width: 200px;
     border-radius: 30%;
 }
 
@@ -154,6 +154,14 @@ footer{
 .redesSociais__lista__item img{
     width: 100%;
     max-width: 20px;
+}
+section ul {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+section ul li {
+    margin-bottom: 10px;
 }
 /* @MEDIA QUERY */
 @media screen and (min-width: 768px) {

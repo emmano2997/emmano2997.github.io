@@ -176,3 +176,72 @@ section ul li {
         flex-basis: 66%;
     }
 }
+/* Ajustes de margens e espaçamento */
+main .container--column {
+    padding: 40px; /* Aumentei o padding */
+}
+
+section {
+    padding-bottom: 30px; /* Aumentei o espaçamento */
+    margin-bottom: 30px; /* Aumentei o espaçamento */
+    border-bottom: 1px solid #d9e2ee;
+}
+
+section h2 {
+    margin-bottom: 20px; /* Aumentei o espaçamento */
+    font-size: 1.4rem; /* Aumentei um pouco o tamanho */
+    color: #3d6394; /* Adicionei cor para destacar */
+}
+
+section p {
+    margin-bottom: 15px; /* Adicionei espaçamento */
+    line-height: 1.6; /* Melhorei o espaçamento entre linhas */
+}
+
+/* Estilização melhorada para listas */
+section ul {
+    padding-left: 25px; /* Aumentei o padding */
+    margin-bottom: 20px; /* Adicionei espaçamento */
+}
+
+section ul li {
+    margin-bottom: 12px; /* Aumentei o espaçamento */
+    position: relative;
+    line-height: 1.6;
+}
+
+/* Estilo especial para a seção de projetos */
+.informacoesExperienciaPortfolio__perfil ul li {
+    padding-left: 20px;
+}
+
+.informacoesExperienciaPortfolio__perfil ul li:before {
+    content: "•";
+    color: #3d6394;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    position: absolute;
+    left: 0;
+}
+
+/* Estilo para subitens de projetos */
+.informacoesExperienciaPortfolio__perfil ul ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.informacoesExperienciaPortfolio__perfil ul ul li:before {
+    content: "◦";
+    color: #6a8bbe;
+}
+
+/* Ajuste para o modo escuro */
+input:checked ~ main section h2 {
+    color: #6a8bbe;
+}
+
+input:checked ~ main .informacoesExperienciaPortfolio__perfil ul li:before {
+    color: #6a8bbe;
+}
